@@ -1,6 +1,5 @@
 import "regenerator-runtime";
 import "./style/style.css";
-import img from "./style/img/lunch.jpg";
 import main from "./script/view/main.js";
 import $ from "jquery";
 import moment from "moment";
