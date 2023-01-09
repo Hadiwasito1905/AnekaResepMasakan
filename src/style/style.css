@@ -46,6 +46,13 @@ meal-list {
     padding: 16px;
 }
 
+.clock{
+    color: chocolate;
+    font-family: "monospace";
+    display: flex;
+    justify-content: space-between;
+}
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
