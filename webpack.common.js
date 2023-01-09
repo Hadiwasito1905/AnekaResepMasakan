@@ -39,6 +39,12 @@ module.exports = {
             template: "./src/index.html",
             filename: "index.html"
         }),
+        new webpack.ProgressPlugin({
+            activeModules: false,
+               entries: true,
+               handler(percentage, message, ...args) {
+               }
+        }),
         new BuildHashPlugin(),
         new DuplicatePackageCheckerPlugin()
     ]
